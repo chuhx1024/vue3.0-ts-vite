@@ -70,6 +70,12 @@ export default defineConfig({
 yarn add vue-router@4
 ```
 
+### 项目集成 vueX
+- 安装
+```sh
+yarn add vuex@next
+```
+
 
 
 
