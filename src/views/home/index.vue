@@ -7,10 +7,9 @@
 </template>
 
 <script lang='ts' setup>
-import { useStore } from 'vuex'
-import { key } from '../../store'
+import { useStore } from '../../store'
 
-const store = useStore(key)
+const store = useStore()
 alert(store.state.count)
 
 </script>
