@@ -8,3 +8,12 @@ yarn create vite
 # 选择 vue 模板
 # 选择 vue + ts
 ```
+
+
+### 配置 ESLint
+```sh
+npm i eslint -D
+
+yarn eslint --init
+
+```
