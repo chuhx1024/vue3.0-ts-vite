@@ -10,6 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
         src="./assets/logo.png"
     >
     <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+    1
+    <router-view />
+    2
 </template>
 
 <style>

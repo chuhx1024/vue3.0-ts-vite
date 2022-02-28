@@ -25,6 +25,6 @@ module.exports = {
         eqeqeq: 0, // 允许使用 == !=
         'comma-dangle': [2, 'always-multiline'], // 对象 数据 分行显示的 结尾必须加 ','
         'quote-props': 0,
-        // 'vue/no-multiple-template-root': 0,
+        'vue/multi-word-component-names': 0,
     },
 }

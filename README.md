@@ -64,6 +64,13 @@ export default defineConfig({
 - build 时  会 先验证 再 build  ----"build": "vue-tsc --noEmit && vite build",----
 
 
+### 项目集成 vue-router
+- 安装
+```sh
+yarn add vue-router@4
+```
+
+
 
 
 
