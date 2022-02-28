@@ -31,3 +31,32 @@ extends: [
     'standard',
 ],
 ```
+
+### vite 配置 eslint 不通过 无法编译
+- https://github.com/gxmari007/vite-plugin-eslint
+```sh
+yarn add vite-plugin-eslint --dev
+
+
+# vite.config.ts
+import eslintPlugin from 'vite-plugin-eslint';
+
+export default defineConfig({
+  plugins: [eslintPlugin()],
+});
+```
+
+#### vs code  根据此项目 eslint 规则 保存时格式化代码
+```js
+.vscode/settings.json
+```
+
+### vs code 环境配置
+- 1. 禁用 vetur
+- 2. 安装 eslint
+- 3. 安装 Vue Language Features (Volar)
+
+
+
+
+
