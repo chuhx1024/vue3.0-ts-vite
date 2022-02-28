@@ -59,6 +59,13 @@ export default defineConfig({
 - 3. 安装 Vue Language Features (Volar)
 
 
+### Vite 中 TS 环境的说明
+- vite 只 执行 ts 转义工作 不会进行类型检查
+- build 时  会 先验证 再 build  ----"build": "vue-tsc --noEmit && vite build",----
+
+
+
+
 
 
 
