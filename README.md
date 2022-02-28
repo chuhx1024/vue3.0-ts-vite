@@ -17,3 +17,10 @@ npm i eslint -D
 yarn eslint --init
 
 ```
+```js
+// .eslintrc.js 配置 使用 vue3 规则
+extends: [
+    'plugin:vue/vue3-strongly-recommended',
+    'standard',
+],
+```
