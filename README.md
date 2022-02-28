@@ -42,7 +42,9 @@ yarn add vite-plugin-eslint --dev
 import eslintPlugin from 'vite-plugin-eslint';
 
 export default defineConfig({
-  plugins: [eslintPlugin()],
+    plugins: [eslintPlugin({
+        cache: false, // 禁用 eslint 缓存
+    })],
 });
 ```
 

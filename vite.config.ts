@@ -6,6 +6,9 @@ import eslintPlugin from 'vite-plugin-eslint'
 export default defineConfig({
     plugins: [
         vue(),
-        eslintPlugin(),
+        eslintPlugin({
+            // 配置项
+            cache: false, // 禁用 eslint 缓存
+        }),
     ],
 })
