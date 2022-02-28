@@ -18,6 +18,13 @@ yarn eslint --init
 
 ```
 ```js
+// error  'defineProps' is not defined  no-undef
+// .eslintrc.js
+env: {
+    browser: true,
+    es2021: true,
+    'vue/setup-compiler-macros': true,
+},
 // .eslintrc.js 配置 使用 vue3 规则
 extends: [
     'plugin:vue/vue3-strongly-recommended',
