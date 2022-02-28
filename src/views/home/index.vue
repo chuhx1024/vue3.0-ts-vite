@@ -8,7 +8,9 @@
 
 <script lang='ts' setup>
 import { useStore } from 'vuex'
+import { key } from '../../store'
 
-const store = useStore()
+const store = useStore(key)
 alert(store.state.count)
+
 </script>
