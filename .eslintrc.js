@@ -27,4 +27,13 @@ module.exports = {
         'quote-props': 0,
         'vue/multi-word-component-names': 0,
     },
+    // 单独给 api 文件设置规则
+    overrides: [
+        {
+            files: ['src/api/**/*.ts'],
+            rules: {
+                'camelcase': 0, // 禁用必须驼峰命名
+            },
+        },
+    ],
 }
