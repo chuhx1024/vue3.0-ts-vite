@@ -81,6 +81,23 @@ yarn add vuex@next
 - 路径报错 所以要设置 tsconfig.node.json 
 
 
+### 项目 集成 scss
+- 无需安装额外的插件 只需要安装 sass
+```sh
+npm install -D sass
+```
+- 使用 sass 变量 需要 配置 vite.config.ts
+```js
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: '@import "@/assets/style/varables.scss";',
+            },
+        },
+    },
+```
+
+
 
 
 

@@ -3,6 +3,9 @@
         home
         {{ $store.state.count }}
         {{ store.state.count }}
+        <p class="desc">
+            我是描述
+        </p>
     </div>
 </template>
 
@@ -10,6 +13,14 @@
 import { useStore } from '@/store'
 
 const store = useStore()
-alert(store.state.count)
+// alert(store.state.count)
 
 </script>
+<style lang="scss" scoped>
+.home-container {
+    color: $injectedColor;
+    .desc {
+        color: yellow;
+    }
+}
+</style>

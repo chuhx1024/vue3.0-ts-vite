@@ -17,4 +17,11 @@ export default defineConfig({
             '@': path.join(__dirname, 'src'), // 把src改为@
         },
     },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: '@import "@/assets/style/varables.scss";',
+            },
+        },
+    },
 })

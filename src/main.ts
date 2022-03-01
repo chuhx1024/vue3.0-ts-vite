@@ -3,6 +3,7 @@ import App from '@/App.vue'
 
 import router from '@/router'
 import { store, key } from '@/store'
+import '@/assets/style/index.scss'
 
 createApp(App)
     .use(router)
