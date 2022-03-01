@@ -5,7 +5,7 @@
 </template>
 
 <script lang='ts' setup>
-import { getLoginInfo } from '@/api/common'
+import { getLoginInfo } from '@/api0/common'
 import { onMounted } from '@vue/runtime-core'
 onMounted(() => {
     getLoginInfo().then((res) => {

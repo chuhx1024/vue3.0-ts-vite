@@ -30,7 +30,7 @@ module.exports = {
     // 单独给 api 文件设置规则
     overrides: [
         {
-            files: ['src/api/**/*.ts'],
+            files: ['src/api/**/*.ts', 'src/api0/**/*.ts'],
             rules: {
                 'camelcase': 0, // 禁用必须驼峰命名
             },

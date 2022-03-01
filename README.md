@@ -97,6 +97,15 @@ npm install -D sass
     },
 ```
 
+### 项目集成 axios
+- 安装
+```sh
+yarn add axios 
+```
+- axios.get 等 直接支持泛型 可以直接简单定义
+- axios 封装最终暴露出一个函数 (为了支持 返回值的泛型)
+- 为了方便页面中复用 interface  最好统一定义在 统一文件中  api/type/common.ts
+
 
 
 
