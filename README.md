@@ -76,6 +76,10 @@ yarn add vue-router@4
 yarn add vuex@next
 ```
 
+### 项目配置 别名 @
+- 因为使用 node 模块 需要安装 yarn add @types/node -D
+- 路径报错 所以要设置 tsconfig.node.json 
+
 
 
 

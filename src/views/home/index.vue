@@ -7,7 +7,7 @@
 </template>
 
 <script lang='ts' setup>
-import { useStore } from '../../store'
+import { useStore } from '@/store'
 
 const store = useStore()
 alert(store.state.count)
